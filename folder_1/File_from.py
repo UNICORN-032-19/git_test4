@@ -6,5 +6,5 @@ OUTPUT_FILENAME = "output.txt"
 def get_data():
     with open(INPUT_FILENAME) as file:
         data = file.readlines()
-    data = [x.strip() for x in data]
+    DATA = [x.strip() for x in data]
     return data
