@@ -6,5 +6,5 @@ class Rectangle(object):
         self.x = x
         self.y = y
 
-    def square(self):
+    def SSquare(self):
         return self.x * self.y
